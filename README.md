@@ -3,7 +3,7 @@
 
 ### windows
 * theme
-* wallapapers
+* wallpapers
 * icons
 
 ### apps
