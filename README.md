@@ -39,7 +39,7 @@ Current wallpaper:
 ![current wallpaper](/images/grey-sea.jpg)
 
 
-Wallpaper folder: [walls *](/walls/)
+Wallpaper folder: [walls](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
 
 ### * icons
 ![icons](/images/icons.png)
@@ -51,7 +51,7 @@ Icons mostly come from [Remix Icon](https://www.remixicon.com) but also occasion
 I turn SVG to PNG using [Icon Scout's icon editor](https://iconscout.com/icon-editor)
 and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com/free-png-to-ico-converter.html) utility
 
-ICO folder: [ico *](/ico/)
+ICO folder: [ico](https://github.com/aritmos/laptop-dotfiles/tree/main/ico)
 
 ---
 ## - apps
@@ -77,7 +77,7 @@ Startup directory shortcut:
 ![discord](/images/discord.png)[redacted servers for privacy]
 * [BetterDiscord](https://betterdiscord.app/) with [Nocturnal](https://betterdiscord.app/theme/Nocturnal) theme.
 
-CustomCSS [file *](/discord/custom.css):
+CustomCSS [file](https://github.com/aritmos/laptop-dotfiles/blob/main/discord/custom.css):
 
 * Removed menu bar text logo
 * Custom home logo
@@ -132,14 +132,30 @@ w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedi
 y: https://www.youtube.com/results?search_query=%s Youtube
 ```
 
+Privacy/Security Add-Ons:
+* Adblocker for Youtube
+* Bitwarden
+* Chameleon
+* ClearURLs
+* Cookie AutoDelete
+* Multi-Account Containers
+* I don't care about cookies
+* Startpage
+* Temporary Containers
+* uBlock Origin 
+* Vimium
+* `<VPN>`
+
+Along with standard [firefox hardening](https://www.privacytools.io/browsers/#about_config) in settings
+
 ### * vscode
-I like using [Horizon](https://horizontheme.netlify.app/) for long coding sessions and [Box Uk Contrast](https://github.com/rainglow/vscode/blob/master/themes/boxuk-contrast.json) for everything else
+I like using the [Horizon](https://horizontheme.netlify.app/) theme for long coding sessions and [Box Uk Contrast](https://github.com/rainglow/vscode/blob/master/themes/boxuk-contrast.json) for everything else
 ![vscode-horizon](/images/vscode-horizon.png)
 ![vscode-boxuk](/images/vscode-boxuk.png)
 Vim Emulation extension with minor tweaks:
 * `jj` to exit **Insert Mode**
 * `<space>` as leader key
-* `'block outline'` normal mode cursor
+* `'block outline'` instead of block cursor
 ![cursor](/images/cursor.png)
 * and many more QoL shortcut keybinds...
 
