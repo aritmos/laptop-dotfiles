@@ -51,7 +51,7 @@ Icons mostly come from [Remix Icon](https://www.remixicon.com) but also occasion
 I turn SVG to PNG using [Icon Scout's icon editor](https://iconscout.com/icon-editor)
 and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com/free-png-to-ico-converter.html) utility
 
-ICO folder: [ico](https://github.com/aritmos/laptop-dotfiles/tree/main/ico)
+ [[Icons]](https://github.com/aritmos/laptop-dotfiles/tree/main/ico) 
 
 ---
 ## - apps
@@ -69,15 +69,14 @@ Main Tweaks:
 * Disabled most bars to keep it minimal
 
 Others:
-* I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . 
+* I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
 
-Startup directory shortcut:
 > `...\cmder\cmder.exe -- -min`
 ### * discord
 ![discord](/images/discord.png)[redacted servers for privacy]
 * [BetterDiscord](https://betterdiscord.app/) with [Nocturnal](https://betterdiscord.app/theme/Nocturnal) theme.
 
-CustomCSS [file](https://github.com/aritmos/laptop-dotfiles/blob/main/discord/custom.css):
+[CustomCSS](https://github.com/aritmos/laptop-dotfiles/blob/main/discord/custom.css):
 
 * Removed menu bar text logo
 * Custom home logo
