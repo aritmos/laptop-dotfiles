@@ -98,13 +98,13 @@ Tweaked [Vimium](https://vimium.github.io/):
   --padding: 2px;
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
-  /* --- Based on RainGlow Tron --- */
+/* ------- HORIZON ------- */
 
   --fg: #ffffff;
-  --bg: #07090B;
-  --border: #07090B;
-  --main-fg: #007fa4;
-  --accent-fg: #00d5fb;
+  --bg: #1a1c23;
+  --border: #2e303e;
+  --main-fg: #e95678;
+  --accent-fg: #59e3e3;
 ```
 * Custom Binds:
 ```vim
@@ -142,7 +142,7 @@ Privacy/Security Add-Ons:
 * Temporary Containers
 * uBlock Origin 
 * Vimium
-* `<VPN>`
+* `<VPN Proxy>`
 
 Along with standard [firefox hardening](https://www.privacytools.io/browsers/#about_config) in settings
 
@@ -157,7 +157,7 @@ I'm currently using the light version of the Horizon theme within VSCodium due t
 
 ![vscodium](/images/vscodium.png)
 
-[Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/../../../../../../../vscode/vim-settings.json) (both editors)
+[Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/vim-settings.json) (both editors)
 
 ### * spotify
 ![spotify](/images/spotify.png)
