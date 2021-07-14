@@ -1,8 +1,4 @@
 # laptop-dotfiles
-
-![desktop](/images/desktop.png)
-
----
 - [laptop-dotfiles](#laptop-dotfiles)
   - [- windows 10](#--windows-10)
     - [* theme](#-theme)
@@ -12,13 +8,9 @@
     - [* cmder](#-cmder)
     - [* discord](#-discord)
     - [* firefox](#-firefox)
-    - [* vscode](#-vscode)
+    - [* vscode & codium](#-vscode--codium)
     - [* spotify](#-spotify)
     - [* sumatrapdf](#-sumatrapdf)
-    - [* others](#-others)
-      - [Zettlr](#zettlr)
-      - [Calibre](#calibre)
-      - [Vim](#vim)
   
 ---
 ## - windows 10
@@ -36,10 +28,10 @@ My wallpapers usually come from [Unsplash](https://www.unsplash.com)
 
 Current wallpaper:
 
-![current wallpaper](/images/grey-sea.jpg)
+![current wallpaper](/walls/red-mountains.jpg)
 
 
-Wallpaper folder: [walls](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
+[All wallpapers](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
 
 ### * icons
 ![icons](/images/icons.png)
@@ -58,15 +50,19 @@ and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com
 
 ### * cmder
 ![cmder](/images/cmder.png)
+ 
+\*\* *now including Debian!* \*\*
+
+![wsl](/images/wsl.png)
 
 Main Tweaks:
-* Fira Code font
 * Quake Style dropdown
-* (Manual) RainGlow Box Uk theme
+* Horizon theme 
 
 ![cmder-colors](/images/cmder-colors.png)
 
-* Disabled most bars to keep it minimal
+* Keybinds
+
 
 Others:
 * I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
@@ -81,14 +77,18 @@ Others:
 * Removed menu bar text logo
 * Custom home logo
 * Removed gift icon (settings toggle not working)
-* Custom colors
+* Custom Horizon colors
 
 ### * firefox
-![firefox](/images/firefox.png)
 
 userChromeCSS: [Wavefox](https://github.com/QNetITQ/WaveFox)
 
+
 Tweaked [Vimium](https://vimium.github.io/):
+
+![vimium-omnibar](/images/vimium-omnibar.png)
+![vimium-easymotion](/images/vimium-easymotion.png)
+
 * Custom Theme
 ```css
 :root {
@@ -108,27 +108,26 @@ Tweaked [Vimium](https://vimium.github.io/):
 ```
 * Custom Binds:
 ```vim
-# Remove clashes with add-on keybinds.
+# Unmap clashes with add-ons
 unmap <a-o> 
 unmap <a-p>
 unmap <a-f>
 
-# Tweak Binds
+# Binds
 map h goBack
 map l goForward
 map o Vomnibar.activateInNewTab
 map O Vomnibar.activate
 map b Vomnibar.activateBookmarksInNewTab
-d: https://dictionary.cambridge.org/dictionary/english/%s Dictionary
-g: https://www.google.com/search?q=%s Google
-
-y: https://www.youtube.com/results?search_query=%s Youtube
+map B Vomnibar.activateBookmarks
+map \ passNextKey
 ```
 * Custom search engines:
 ```
 d: https://dictionary.cambridge.org/dictionary/english/%s Dictionary
 w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
 y: https://www.youtube.com/results?search_query=%s Youtube
+g: https://github.com/search?q=%s Github
 ```
 
 Privacy/Security Add-Ons:
@@ -147,60 +146,62 @@ Privacy/Security Add-Ons:
 
 Along with standard [firefox hardening](https://www.privacytools.io/browsers/#about_config) in settings
 
-### * vscode
-I like using the [Horizon](https://horizontheme.netlify.app/) theme for long coding sessions and [Box Uk Contrast](https://github.com/rainglow/vscode/blob/master/themes/boxuk-contrast.json) for everything else
-![vscode-horizon](/images/vscode-horizon.png)
-![vscode-boxuk](/images/vscode-boxuk.png)
-Vim Emulation extension with minor tweaks:
-* `jj` to exit **Insert Mode**
-* `<space>` as leader key
-* `'block outline'` instead of block cursor
-![cursor](/images/cursor.png)
-* and many more QoL shortcut keybinds...
+### * vscode & codium
+I use VSCode for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This allows me to keep a more lightweight configuration of vscode without having to switch to a new unfamiliar editor. 
+
+Both are installed in [portable mode](https://code.visualstudio.com/docs/editor/portable).
+
+![vscode](/images/vscode.png)
+
+I'm currently using the light version of the Horizon theme within VSCodium due to increased luminosity at this time of year.
+
+![vscodium](/images/vscodium.png)
+
+[Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/../../../../../../../vscode/vim-settings.json) (both editors)
 
 ### * spotify
 ![spotify](/images/spotify.png)
 
 [Spicetify](https://github.com/khanhas/spicetify-cli) with [Dribbblish](https://github.com/morpheusthewhite/spicetify-themes/tree/v2/Dribbblish) community theme
 
-Custom color theme based on RainGlow's [Tron Contrast](https://github.com/rainglow/vscode/blob/master/themes/tron-contrast.json) theme:
+Custom horizon color scheme: 
 ```
-[tron]
-text               = FFFFFF
-subtext            = F0F0F0
-sidebar-text       = F0F0F0
-main               = 07090b
-sidebar            = 0a1820
-player             = 262626
-card               = 262626
+[horizon]
+text               = ffffff
+subtext            = ffffff
+sidebar-text       = ffffff
+main               = 1c1e26 
+sidebar            = 232530
+player             = F09383
+card               = E95678
 shadow             = 000000
-selected-row       = d1d6e2
-button             = 39dbfb
-button-active      = 39dbfb
-button-disabled    = 535353
-tab-active         = 39dbfb
-notification       = 39dbfb
-notification-error = e22134
+selected-row       = 25b2bc
+button             = E95678
+button-active      = aaaaff
+button-disabled    = ffaaaa
+tab-active         = 27D796
+notification       = 1d8991
+notification-error = aa4400
 misc               = BFBFBF
 ```
-CustomCSS:
-```css
-/* Extra padding for main container  
-   to not overlap with window buttons */
+\+ some [CustomCSS](https://github.com/aritmos/laptop-dotfiles/tree/main/spotify/custom.css) to tweak some colors
 
-.Root__top-container {
-    padding-top: 40px !important;
-}
-```
+^ Important: For some reason I had trouble applying this css in a separate file and using `@import`, so this is just appended at the end of `user.css`
+
+Extensions:
+* Reddit - collections of playlists (seen above)
+* FullAppDisplay - nice fullscreen art
+
+![spotify-fullscreen](/images/spotify-fullscreen.png)
 
 ### * sumatrapdf
 ![sumatrapdf](/images/sumatrapdf.png)
 
-> I cannot comfortably read from dark backgrounds so I chose this beige color scheme instead
+^ I cannot comfortably read from dark backgrounds so I chose the whiteish background from Horizon Bright
 
 Custom Advanced Options:
 ```
-MainWindowBackground = #e7e1d8
+MainWindowBackground = #fdf0ed
 EscToExit = false
 ReuseInstance = true
 UseSysColors = false
@@ -208,30 +209,13 @@ RestoreSession = true
 
 FixedPageUI [
 	TextColor = #000000
-	BackgroundColor = #e7e1d8
+	BackgroundColor = #fdf0ed
 	SelectionColor = #f5fc0c
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
-	GradientColors = #e7e1d8
+	GradientColors = #fdf0ed
 
 ShowToolbar = false
 ShowFavorites = false
 ```
-### * others
 
-#### Zettlr
-* Dark Frankfurt theme
-* CustomCSS
-```css
-body #editor .CodeMirror {
-    font-family: 'SF Mono';
-}
-```
-#### Calibre
-* San Francisco Night theme
-
-#### Vim
-![vim](/images/vim.png)
-[ Rarely use vanilla vim ] 
-* Color-scheme: [Deep Space](https://github.com/tyrannicaltoucan/vim-deep-space)
-* Lightline theme: [Challenger Deep](https://github.com/challenger-deep-theme/vim)

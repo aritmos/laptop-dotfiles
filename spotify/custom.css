@@ -1,0 +1,28 @@
+/* === FIXES === */
+
+/* Extra padding for main container  
+   to not overlap with window buttons */
+
+.Root__top-container {
+    padding-top: 40px !important;
+}
+
+/* === Colors === */
+
+.main-card-card {
+    background-color: rgba(var(--spice-rgb-selected-row), 0.1);
+}
+
+.main-card-card:hover {
+    background-color: rgba(var(--spice-rgb-selected-row), .3);
+}
+
+.reddit-tabBar-active {
+    background-color: rgba(var(--spice-rgb-tab-active), .6);
+}
+
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader {
+    background: var(--spice-sidebar);
+    /* Nice rounded bottom corners */
+    border-radius: 0px 0px 10px 10px;
+}

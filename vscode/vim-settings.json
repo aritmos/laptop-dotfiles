@@ -1,0 +1,143 @@
+{
+    "vim.cursorStylePerMode.normal": "block-outline",
+    "vim.easymotion": true,
+    "vim.enableNeovim": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        }
+    ],
+    "vim.leader": " ",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "after": [
+                "o",
+                "<Esc>"
+            ],
+            "before": [
+                "<leader>",
+                "o"
+            ]
+        },
+        {
+            "after": [
+                "O",
+                "<Esc>"
+            ],
+            "before": [
+                "<leader>",
+                "O"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "l"
+            ],
+            "commands": [
+                "editor.action.openLink"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "t"
+            ],
+            "commands": [
+                ":tabnew"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "p"
+            ],
+            "commands": [
+                ":tabprev"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "o"
+            ],
+            "commands": [
+                ":tabo"
+            ]
+        },
+        {
+            "after": [
+                "J"
+            ],
+            "before": [
+                "<Leader>",
+                "j"
+            ]
+        },
+        {
+            "after": [
+                "5",
+                "j"
+            ],
+            "before": [
+                "J"
+            ]
+        },
+        {
+            "after": [
+                "5",
+                "k"
+            ],
+            "before": [
+                "K"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true
+}

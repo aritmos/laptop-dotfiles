@@ -1,6 +1,6 @@
-![abstract_blues.jpg](abstract_blues.jpg)
+![red-mountains.jpg](red-mountains.jpg)
 
-![electron-wall.png](electron-wall.png)
+![abstract_blues.jpg](abstract_blues.jpg)
 
 ![landscape_blue.jpg](landscape_blue.jpg)
 
