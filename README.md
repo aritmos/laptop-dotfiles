@@ -1,4 +1,9 @@
 # laptop-dotfiles
+
+`v1.1` ~ **Horizon**
+![horizon](https://camo.githubusercontent.com/c09f83b02a7cf7c60adea511d63bd33ba026b7a6c28d571228d5f5cc7acab375/68747470733a2f2f692e696d6775722e636f6d2f707742554353652e706e67)
+
+---
 - [laptop-dotfiles](#laptop-dotfiles)
   - [- windows 10](#--windows-10)
     - [* theme](#-theme)
@@ -31,14 +36,14 @@ Current wallpaper:
 ![current wallpaper](/walls/red-mountains.jpg)
 
 
-[All wallpapers](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
+[[wallpapers]](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
 
 ### * icons
 ![icons](/images/icons.png)
 
-Normally create a shortcut on the applications directory, change the ICO and pin it to the task bar. For apps where this cannot be done I use [Resource Hacker](http://www.angusj.com/resourcehacker/) to directly change the ICO on the EXE
+First create a shortcut on the applications directory, change the ICO and pin it to the task bar. For apps where this cannot be done I use [Resource Hacker](http://www.angusj.com/resourcehacker/) to directly change the ICO on the EXE
 
-Icons mostly come from [Remix Icon](https://www.remixicon.com) but also occasionally from [Ion Icons](https://ionic.io/ionicons)
+Icons come from [Remix Icon](https://www.remixicon.com)
 
 I turn SVG to PNG using [Icon Scout's icon editor](https://iconscout.com/icon-editor)
 and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com/free-png-to-ico-converter.html) utility
@@ -51,7 +56,7 @@ and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com
 ### * cmder
 ![cmder](/images/cmder.png)
  
-\*\* *now including Debian!* \*\*
+\*\* *now including Debian! (via WSL)* \*\*
 
 ![wsl](/images/wsl.png)
 
@@ -68,6 +73,8 @@ Others:
 * I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
 
 > `...\cmder\cmder.exe -- -min`
+
+* Cmder has a very useful `'alias'` utility, use it!
 ### * discord
 ![discord](/images/discord.png)[redacted servers for privacy]
 * [BetterDiscord](https://betterdiscord.app/) with [Nocturnal](https://betterdiscord.app/theme/Nocturnal) theme.
@@ -81,10 +88,7 @@ Others:
 
 ### * firefox
 
-userChromeCSS: [Wavefox](https://github.com/QNetITQ/WaveFox)
-
-
-Tweaked [Vimium](https://vimium.github.io/):
+[Wavefox](https://github.com/QNetITQ/WaveFox) userChromeCSS and tweaked [Vimium](https://vimium.github.io/):
 
 ![vimium-omnibar](/images/vimium-omnibar.png)
 ![vimium-easymotion](/images/vimium-easymotion.png)
@@ -153,13 +157,13 @@ Finally I use the add-on [Stylish](https://add0n.com/stylus.html) to style my se
 ^ Startpage [CustomCSS](https://github.com/aritmos/laptop-dotfiles/tree/main/firefox/startpage-horizon.css)
 
 ### * vscode & codium
-I use VSCode for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This allows me to keep a more lightweight configuration of vscode without having to switch to a new unfamiliar editor. 
+I use VSCode with the [Horizon](https://horizontheme.netlify.app/) theme for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This really just allows me to have easy access to two 'lightweight' configurations of VSCode: one set up as an IDE and the other as a misc text editor, instead of one big profile.
 
 Both are installed in [portable mode](https://code.visualstudio.com/docs/editor/portable).
 
 ![vscode](/images/vscode.png)
 
-I'm currently using the light version of the Horizon theme within VSCodium due to increased luminosity at this time of year.
+For general writing in VSCodium I use the light (bright) version of the Horizon theme
 
 ![vscodium](/images/vscodium.png)
 
