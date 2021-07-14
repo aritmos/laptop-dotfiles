@@ -61,8 +61,7 @@ Main Tweaks:
 
 ![cmder-colors](/images/cmder-colors.png)
 
-* Keybinds
-
+[Config](https://github.com/aritmos/laptop-dotfiles/blob/main/cmder/config.xml)
 
 Others:
 * I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
