@@ -1,0 +1,84 @@
+:root {
+    --purple: #b877db;
+    --blue: #25b2bc;
+    --red: #e95678;
+    --orange: #f09383;
+    --tan-1: #fab795;
+    --tan-2: #fac29a;
+    --black: #16161c;
+    --grey-1: #1a1c23;
+    --grey-2: #1c1e26;
+    --grey-3: #232530;
+    --grey-4: #2e303e;
+    --grey-purple: #6c6f93;
+    --green-1: #09f7a0;
+    --green-2: #27d796;
+}
+
+/* ----- REMOVE STUFF ---- */
+
+.header--blak .header__logo, .header--nite .header__logo {
+    background: none !important;
+}
+
+.privacy-please-menu__button {
+    display: none;
+}
+
+.w-gl__anonymous-view-icon {
+    display: none;
+}
+
+.feedback-button--blak, .feedback-button--nite {
+    display: none;
+}
+
+/* ----- COLORS ----- */
+
+.header--blak, .header--nite {
+    background: var(--grey-1);
+}
+
+.layout-web--blak, .layout-web--blak .layout-web__body, .layout-web--nite, .layout-web--nite .layout-web__body {
+    background: var(--grey-1);
+}
+
+.search-form--blak .search-form__form, .search-form--nite .search-form__form {
+    border: 1px solid var(--tan-2);
+}
+
+.inline-nav-menu--blak .inline-nav-menu__link, .inline-nav-menu--nite .inline-nav-menu__link {
+    color: var(--tan-1);
+}
+
+.w-gl--blak .w-gl__result-title, .w-gl--nite .w-gl__result-title {
+    color: var(--blue);
+}
+
+.w-gl--blak .w-gl__result-title:visited, .w-gl--nite .w-gl__result-title:visited {
+    color: var(--purple);
+}
+
+.w-gl--blak .w-gl__result-url, .w-gl--nite .w-gl__result-url {
+    color: var(--grey-purple)
+}
+
+.inline-nav-menu--blak .inline-nav-menu__link__active, .inline-nav-menu--nite .inline-nav-menu__link__active {
+    color: var(--red) !important;
+    border-bottom: 2px solid var(--red) !important;
+}
+
+.inline-nav-menu--blak .inline-nav-menu__link:hover, .inline-nav-menu--nite .inline-nav-menu__link:hover {
+    color: var(--tan-1);
+    border-bottom: 2px solid var(--tan-1);
+}
+
+/* --- REPLACE ICONS --- */
+
+.search-form--blak .search-form__clear-button .x-btn, .search-form--nite .search-form__clear-button .x-btn {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z' fill='rgba(250,183,149,1)'/%3E%3C/svg%3E");
+}
+
+.search-form--blak .search-form__button-desktop .ico-wrapper .ico, .search-form--nite .search-form__button-desktop .ico-wrapper .ico {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z' fill='rgba(250,183,149,1)'/%3E%3C/svg%3E");
+}

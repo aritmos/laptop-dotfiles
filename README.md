@@ -146,6 +146,12 @@ Privacy/Security Add-Ons:
 
 Along with standard [firefox hardening](https://www.privacytools.io/browsers/#about_config) in settings
 
+Finally I use the add-on [Stylish](https://add0n.com/stylus.html) to style my search page to match the Horizon theme
+
+![startpage](/images/startpage.png)
+
+^ Startpage [CustomCSS](https://github.com/aritmos/laptop-dotfiles/tree/main/firefox/startpage-horizon.css)
+
 ### * vscode & codium
 I use VSCode for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This allows me to keep a more lightweight configuration of vscode without having to switch to a new unfamiliar editor. 
 
