@@ -27,6 +27,8 @@
 * [Simplify 10 Vanilla Dark](https://www.deviantart.com/dpcdpc11/art/Simplify-10-Vanilla-Windows-10-Theme-852482791)
 * [Simplify 10 Vanilla Dark Curtain Theme](https://dpcdpc11.gumroad.com/?sort=page_layout#NSuPn)
 
+Download and apply [UXThemePatcher](https://mhoefs.eu/software_uxtheme.php) and [OldNewExplorer](https://m.majorgeeks.com/files/details/oldnewexplorer.html) (explained in links) to apply the themes. Curtain themes are applied using [Stardock Curtains](https://www.stardock.com/products/curtains/)
+
 ### * wallpapers
 
 My wallpapers usually come from [Unsplash](https://www.unsplash.com)
@@ -41,7 +43,7 @@ Current wallpaper:
 ### * icons
 ![icons](/images/icons.png)
 
-First create a shortcut on the applications directory, change the ICO and pin it to the task bar. For apps where this cannot be done I use [Resource Hacker](http://www.angusj.com/resourcehacker/) to directly change the ICO on the EXE
+First create a shortcut on the applications directory, change the ICO and pin it to the task bar. For apps where this cannot be done I use [Resource Hacker](http://www.angusj.com/resourcehacker/) to directly change the ICO in the EXE
 
 Icons come from [Remix Icon](https://www.remixicon.com)
 
@@ -198,7 +200,7 @@ misc               = BFBFBF
 ^ Important: For some reason I had trouble applying this css in a separate file and using `@import`, so this is just appended at the end of `user.css`
 
 Extensions:
-* Reddit - collections of playlists (seen above)
+* Reddit - community playlists (seen above)
 * FullAppDisplay - nice fullscreen art
 
 ![spotify-fullscreen](/images/spotify-fullscreen.png)
@@ -206,7 +208,7 @@ Extensions:
 ### * sumatrapdf
 ![sumatrapdf](/images/sumatrapdf.png)
 
-^ I cannot comfortably read from dark backgrounds so I chose the whiteish background from Horizon Bright
+^ I can't comfortably read from dark backgrounds so I chose the background from Horizon Bright
 
 Custom Advanced Options:
 ```
