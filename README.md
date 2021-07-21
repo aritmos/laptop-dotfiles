@@ -1,4 +1,4 @@
-# laptop-dotfiles
+# LAPTOP-DOTFILES
 
 `v1.1` ~ **Horizon**
 ![horizon](https://camo.githubusercontent.com/c09f83b02a7cf7c60adea511d63bd33ba026b7a6c28d571228d5f5cc7acab375/68747470733a2f2f692e696d6775722e636f6d2f707742554353652e706e67)
@@ -17,10 +17,11 @@
     - [* spotify](#-spotify)
     - [* sumatrapdf](#-sumatrapdf)
   
----
-## - windows 10
+## **WINDOWS 10** 
 
-### * theme
+---
+
+### <center> THEME </center>
 
 ![theme](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/40ee5933-f37f-4ee8-9857-e6395a9858bf/de3jnxj-8acef562-15ed-4ed3-b7a8-533e7eb5c017.png/v1/fill/w_981,h_815,q_70,strp/simplify_10_vanilla___windows_10_theme_by_dpcdpc11_de3jnxj-pre.jpg)
 
@@ -29,7 +30,9 @@
 
 Download and apply [UXThemePatcher](https://mhoefs.eu/software_uxtheme.php) and [OldNewExplorer](https://m.majorgeeks.com/files/details/oldnewexplorer.html) (explained in links) to apply the themes. Curtain themes are applied using [Stardock Curtains](https://www.stardock.com/products/curtains/)
 
-### * wallpapers
+---
+
+### <center> WALLPAPERS </center>
 
 My wallpapers usually come from [Unsplash](https://www.unsplash.com)
 
@@ -40,7 +43,9 @@ Current wallpaper:
 
 [[wallpapers]](https://github.com/aritmos/laptop-dotfiles/tree/main/walls)
 
-### * icons
+---
+
+### <center> ICONS </center>
 ![icons](/images/icons.png)
 
 First create a shortcut on the applications directory, change the ICO and pin it to the task bar. For apps where this cannot be done I use [Resource Hacker](http://www.angusj.com/resourcehacker/) to directly change the ICO in the EXE
@@ -52,10 +57,11 @@ and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com
 
  [[Icons]](https://github.com/aritmos/laptop-dotfiles/tree/main/ico) 
 
----
-## - apps
+## **APPS**
 
-### * cmder
+---
+
+### <center> CMDER </center>
 ![cmder](/images/cmder.png)
  
 \*\* *now including Debian! (via WSL)* \*\*
@@ -68,15 +74,19 @@ Main Tweaks:
 
 ![cmder-colors](/images/cmder-colors.png)
 
-[Config](https://github.com/aritmos/laptop-dotfiles/blob/main/cmder/config.xml)
+[[Config]](https://github.com/aritmos/laptop-dotfiles/blob/main/cmder/config.xml)
 
 Others:
 * I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
 
 > `...\cmder\cmder.exe -- -min`
 
+
 * Cmder has a very useful `'alias'` utility, use it!
-### * discord
+
+---
+
+### <center> DISCORD </center>
 ![discord](/images/discord.png)[redacted servers for privacy]
 * [BetterDiscord](https://betterdiscord.app/) with [Nocturnal](https://betterdiscord.app/theme/Nocturnal) theme.
 
@@ -87,7 +97,9 @@ Others:
 * Removed gift icon (settings toggle not working)
 * Custom Horizon colors
 
-### * firefox
+---
+
+### <center> FIREFOX </center>
 
 [Wavefox](https://github.com/QNetITQ/WaveFox) userChromeCSS and tweaked [Vimium](https://vimium.github.io/):
 
@@ -155,10 +167,12 @@ Finally I use the add-on [Stylish](https://add0n.com/stylus.html) to style my se
 
 ![startpage](/images/startpage.png)
 
-^ Startpage [CustomCSS](https://github.com/aritmos/laptop-dotfiles/tree/main/firefox/startpage-horizon.css)
+Startpage [CustomCSS](https://github.com/aritmos/laptop-dotfiles/tree/main/firefox/startpage-horizon.css)
 
-### * vscode & codium
-I use VSCode with the [Horizon](https://horizontheme.netlify.app/) theme for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This really just allows me to have easy access to two 'lightweight' configurations of VSCode: one set up as an IDE and the other as a misc text editor, instead of one big profile.
+---
+
+### <center> VSCODE & CODIUM </center>
+I use VSCode with the [Horizon](https://horizontheme.netlify.app/) theme for coding but have now switched to [VSCodium](https://vscodium.com/) for all other writing tasks. This allows me to have easy access to two 'lightweight' configurations of VSCode: one set up as an IDE and the other as a misc text editor, instead of one big and slow config.
 
 Both are installed in [portable mode](https://code.visualstudio.com/docs/editor/portable).
 
@@ -170,7 +184,9 @@ For general writing in VSCodium I use the light (bright) version of the Horizon 
 
 [Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/vim-settings.json) (both editors)
 
-### * spotify
+---
+
+### <center> SPOTIFY </center>
 ![spotify](/images/spotify.png)
 
 [Spicetify](https://github.com/khanhas/spicetify-cli) with [Dribbblish](https://github.com/morpheusthewhite/spicetify-themes/tree/v2/Dribbblish) community theme
@@ -205,7 +221,11 @@ Extensions:
 
 ![spotify-fullscreen](/images/spotify-fullscreen.png)
 
-### * sumatrapdf
+`SpotifyNoControls` (Removes 'title bar' buttons) via AHK (see AHK section)
+
+---
+
+### <center> SUMATRAPDF </center>
 ![sumatrapdf](/images/sumatrapdf.png)
 
 ^ I can't comfortably read from dark backgrounds so I chose the background from Horizon Bright
@@ -230,3 +250,13 @@ ShowToolbar = false
 ShowFavorites = false
 ```
 
+## **OTHERS**
+
+---
+### <center> AUTOHOTKEY </center>
+
+I have some simple scripts for window manipulation, these allow me to remove title bar buttons where I can while maintaining usability.
+
+I also remove Spotify's controls via a script, this achieves the same purpose as running `SpotifyNoControl.exe`
+
+[[Scripts]](https://github.com/aritmos/laptop-dotfiles/tree/main/ahk/main.ahk)
