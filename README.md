@@ -4,18 +4,20 @@
 ![horizon](https://camo.githubusercontent.com/c09f83b02a7cf7c60adea511d63bd33ba026b7a6c28d571228d5f5cc7acab375/68747470733a2f2f692e696d6775722e636f6d2f707742554353652e706e67)
 
 ---
-- [laptop-dotfiles](#laptop-dotfiles)
-  - [- windows 10](#--windows-10)
-    - [* theme](#-theme)
-    - [* wallpapers](#-wallpapers)
-    - [* icons](#-icons)
-  - [- apps](#--apps)
-    - [* cmder](#-cmder)
-    - [* discord](#-discord)
-    - [* firefox](#-firefox)
-    - [* vscode & codium](#-vscode--codium)
-    - [* spotify](#-spotify)
-    - [* sumatrapdf](#-sumatrapdf)
+- [LAPTOP-DOTFILES](#laptop-dotfiles)
+  - [**WINDOWS 10**](#windows-10)
+    - [THEME](#center-theme-center)
+    - [WALLPAPERS](#center-wallpapers-center)
+    - [ICONS](#center-icons-center)
+  - [**APPS**](#apps)
+    - [CMDER](#center-cmder-center)
+    - [DISCORD](#center-discord-center)
+    - [FIREFOX](#center-firefox-center)
+    - [VSCODE & CODIUM](#center-vscode--codium-center)
+    - [SPOTIFY](#center-spotify-center)
+    - [SUMATRAPDF](#center-sumatrapdf-center)
+  - [**OTHERS**](#others)
+    - [AUTOHOTKEY](#center-autohotkey-center)
   
 ## **WINDOWS 10** 
 
