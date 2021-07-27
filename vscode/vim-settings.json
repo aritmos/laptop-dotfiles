@@ -2,37 +2,24 @@
     "vim.cursorStylePerMode.normal": "block-outline",
     "vim.easymotion": true,
     "vim.enableNeovim": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "after": [
-                "<Esc>"
-            ],
-            "before": [
-                "j",
-                "j"
-            ]
-        }
-    ],
     "vim.leader": " ",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "after": [
-                "o",
-                "<Esc>"
-            ],
             "before": [
                 "<leader>",
-                "o"
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
             ]
         },
         {
-            "after": [
-                "O",
-                "<Esc>"
-            ],
             "before": [
                 "<leader>",
-                "O"
+                "r"
+            ],
+            "commands": [
+                "code-runner.run"
             ]
         },
         {
@@ -47,91 +34,6 @@
         {
             "before": [
                 "<leader>",
-                "t",
-                "t"
-            ],
-            "commands": [
-                ":tabnew"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "t",
-                "n"
-            ],
-            "commands": [
-                ":tabnext"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "t",
-                "p"
-            ],
-            "commands": [
-                ":tabprev"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "t",
-                "o"
-            ],
-            "commands": [
-                ":tabo"
-            ]
-        },
-        {
-            "after": [
-                "J"
-            ],
-            "before": [
-                "<leader>",
-                "j"
-            ]
-        },
-        {
-            "after": [
-                "5",
-                "j"
-            ],
-            "before": [
-                "J"
-            ]
-        },
-        {
-            "after": [
-                "5",
-                "k"
-            ],
-            "before": [
-                "K"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "w"
-            ],
-            "commands": [
-                "workbench.action.files.save"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "p"
-            ],
-            "commands": [
-                "workbench.action.showCommands"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "z"
             ],
             "commands": [
@@ -139,5 +41,7 @@
             ]
         }
     ],
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.config/.vimrc"
 }

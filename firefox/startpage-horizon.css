@@ -43,6 +43,10 @@
     background: var(--grey-1);
 }
 
+.w-gl.w-gl--desktop.w-gl--blak {
+    background: var(--grey-1);
+}
+
 .search-form--blak .search-form__form, .search-form--nite .search-form__form {
     border: 1px solid var(--tan-2);
 }

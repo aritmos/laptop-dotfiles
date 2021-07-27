@@ -66,12 +66,8 @@ and then PNG to ICO using the [free png to ico](https://freepicturesolutions.com
 ### <center> CMDER </center>
 ![cmder](/images/cmder.png)
  
-\*\* *now including Debian! (via WSL)* \*\*
-
-![wsl](/images/wsl.png)
-
 Main Tweaks:
-* Quake Style dropdown
+* Full screen Quake-Style dropdown
 * Horizon theme 
 
 ![cmder-colors](/images/cmder-colors.png)
@@ -79,7 +75,8 @@ Main Tweaks:
 [[Config]](https://github.com/aritmos/laptop-dotfiles/blob/main/cmder/config.xml)
 
 Others:
-* I like having cmder autorun and minimise on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
+* GnuWin32 (GNU Core Utils) installation
+* I like having cmder autorun and minimize on startup so that I can quickly open it using `<ctrl>+'` . Startup directory shortcut:
 
 > `...\cmder\cmder.exe -- -min`
 
