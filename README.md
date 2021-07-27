@@ -181,8 +181,13 @@ For general writing in VSCodium I use the light (bright) version of the Horizon 
 
 ![vscodium](/images/vscodium.png)
 
-[Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/vim-settings.json) (both editors)
+[Vim emulation settings](https://github.com/aritmos/laptop-dotfiles/tree/main/vscode/) (both editors)
 
+Other:
+* If using `Startup Editor: none` you can change the background icon by modifying the files in 
+```
+VS Code\resources\app\out\vs\workbench\browser\parts\editor\media
+```
 ---
 
 ### <center> SPOTIFY </center>
